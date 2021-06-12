@@ -18,7 +18,7 @@ The frontend code sets up the routes to retrieve, edit, create and delete input 
 * React
 * Material UI
 
-* [Backend] (htps://github.com/BeckyDania/reference-citation-generator-backend)
+* [Backend](https://github.com/BeckyDania/reference-citation-generator-backend)
 
 
 ## Forthcoming Features
