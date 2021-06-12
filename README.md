@@ -1,4 +1,4 @@
-#MLA/APA citation style generator
+# MLA/APA citation style generator
 Frontend for a reference citation style app
 <br> by BeckyDania</br>
 
