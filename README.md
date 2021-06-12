@@ -5,7 +5,7 @@ Frontend for a reference citation style app
 [Demo Site]
 
 ## Description
-This is the backend repo of a Reference citation style generation where:
+This is the frontend repo of a Reference citation style generation where:
 The users can choose a target citation style
 The user will be able to enter the source information to be formatted on the app
 The user will be able to access and read a list of their formatted citations
