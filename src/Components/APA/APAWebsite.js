@@ -33,15 +33,15 @@ class APAWebsite extends Component {
 		super(props)
 		this.state={
 		  style: 'apa',
-		  source: 'book',
+		  source: 'website',
 		  lastname: '',
 		  firstname: '',
 		  title: '', 
 		  publisher: '',
 		  date: '',
-		  website: '0',
+		  website: '',
 		  volume: '0',
-		  issue: '',
+		  issue: '0',
 		  pages: ''
 		}
 		this.handleChange = this.handleChange.bind(this)
