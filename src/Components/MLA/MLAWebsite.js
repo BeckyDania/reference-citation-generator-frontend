@@ -79,7 +79,7 @@ class MLAWebsite extends Component {
 					date: this.state.date, 
 					website: this.state.website, 
 					volume: this.state.volume, 
-					issue: this.state.source, 
+					issue: this.state.issue, 
 					pages: this.state.pages
 				}),
 				headers: {
