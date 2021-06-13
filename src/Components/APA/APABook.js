@@ -39,8 +39,8 @@ class APABook extends Component {
 		  publisher: '',
 		  date: '',
 		  website: '',
-		  volume: '',
-		  issue: '',
+		  volume: '0',
+		  issue: '0',
 		  pages: ''
 		}
 		this.handleChange = this.handleChange.bind(this)
@@ -107,8 +107,8 @@ class APABook extends Component {
 						publisher: '',
 						date: '',
 						website: '',
-						volume: '',
-						issue: '',
+						volume: '0',
+						issue: '0',
 						pages: ''
 				})
 				this.handleClose()

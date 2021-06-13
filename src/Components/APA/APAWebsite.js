@@ -39,8 +39,8 @@ class APAWebsite extends Component {
 		  title: '', 
 		  publisher: '',
 		  date: '',
-		  website: '',
-		  volume: '',
+		  website: '0',
+		  volume: '0',
 		  issue: '',
 		  pages: ''
 		}
@@ -108,8 +108,8 @@ class APAWebsite extends Component {
 						publisher: '',
 						date: '',
 						website: '',
-						volume: '',
-						issue: '',
+						volume: '0',
+						issue: '0',
 						pages: ''
 				})
 				this.handleClose()
