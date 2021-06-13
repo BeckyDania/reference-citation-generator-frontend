@@ -1,6 +1,10 @@
 {
   "name": "frontent2_sources",
   "version": "0.1.0",
+  "engines": {
+    "node": "14.3.0", 
+    "npm": "7.13.0"   
+  },
   "private": true,
   "dependencies": {
     "@fontsource/roboto": "^4.4.2",
