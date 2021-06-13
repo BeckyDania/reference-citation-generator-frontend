@@ -18,8 +18,14 @@ import DialogTitle from '@material-ui/core/DialogTitle';
 import DialogContentText from '@material-ui/core/DialogContentText';
 import Button from '@material-ui/core/Button';
 
+console.log(process.env.NODE_ENV)
+let baseURL = ''
 
-let baseURL = 'http://127.0.0.1:8000'
+if (process.env.NODE_ENV === 'development') {
+  baseURL = 'http://127.0.0.1:8000'
+} else {
+  baseURL = 'https://limitless-harbor-79486.herokuapp.com'
+}
 
 export default class MLAMain extends Component {
 	constructor(props){

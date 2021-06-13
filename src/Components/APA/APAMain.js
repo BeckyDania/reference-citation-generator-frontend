@@ -19,7 +19,14 @@ import APAarticle from './APAarticle';
 import APAWebsite from './APAWebsite';
 
  
-let baseURL = 'http://127.0.0.1:8000'
+console.log(process.env.NODE_ENV)
+let baseURL = ''
+
+if (process.env.NODE_ENV === 'development') {
+  baseURL = 'http://127.0.0.1:8000'
+} else {
+  baseURL = 'https://limitless-harbor-79486.herokuapp.com'
+}
 
 export default class APAMain extends Component {
 

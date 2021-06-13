@@ -8,8 +8,16 @@ import DialogContent from '@material-ui/core/DialogContent';
 import DialogTitle from '@material-ui/core/DialogTitle';
 import DialogContentText from '@material-ui/core/DialogContentText';
 
+console.log(process.env.NODE_ENV)
+let baseURL = ''
 
-let baseURL = 'http://127.0.0.1:8000'
+if (process.env.NODE_ENV === 'development') {
+  baseURL = 'http://127.0.0.1:8000'
+} else {
+  baseURL = 'https://limitless-harbor-79486.herokuapp.com'
+}
+
+
 const useStyles = (theme) => ({
 	root: {
 	  '& > *': {
